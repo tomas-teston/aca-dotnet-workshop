@@ -5,8 +5,11 @@ Set-Variable -Scope Global -Name APPINSIGHTS_INSTRUMENTATIONKEY -Value "ebfbcf52
 Set-Variable -Scope Global -Name AZURE_CONTAINER_REGISTRY_NAME -Value "crtaskstrackere9jlz8"
 Set-Variable -Scope Global -Name AZURE_SUBSCRIPTION_ID -Value "a5398e48-ff8c-44f8-b346-454d4d390707"
 Set-Variable -Scope Global -Name BACKEND_API_EXTERNAL_BASE_URL -Value "https://tasksmanager-backend-api.yellowwater-7a0dae83.eastus.azurecontainerapps.io"
+Set-Variable -Scope Global -Name BACKEND_API_INTERNAL_BASE_URL -Value "https://tasksmanager-backend-api.internal.yellowwater-7a0dae83.eastus.azurecontainerapps.io"
 Set-Variable -Scope Global -Name BACKEND_API_NAME -Value "tasksmanager-backend-api"
 Set-Variable -Scope Global -Name ENVIRONMENT -Value "cae-tasks-tracker"
+Set-Variable -Scope Global -Name FRONTEND_UI_BASE_URL -Value "https://tasksmanager-frontend-webapp.yellowwater-7a0dae83.eastus.azurecontainerapps.io"
+Set-Variable -Scope Global -Name FRONTEND_WEBAPP_NAME -Value "tasksmanager-frontend-webapp"
 Set-Variable -Scope Global -Name LOCATION -Value "eastus"
 Set-Variable -Scope Global -Name RANDOM_STRING -Value "e9jlz8"
 Set-Variable -Scope Global -Name RESOURCE_GROUP -Value "rg-tasks-tracker-e9jlz8"
@@ -16,4 +19,4 @@ Set-Variable -Scope Global -Name WORKSPACE_ID -Value "f35faae1-092e-4bb4-94cf-48
 Set-Variable -Scope Global -Name WORKSPACE_NAME -Value "log-tasks-tracker-e9jlz8"
 Set-Variable -Scope Global -Name WORKSPACE_SECRET -Value "kY0bKcxGM5xbdlpemneZPDyufaK1STlPpKaBiaiZKo6g3+Ih6UFx74JC4sLkpwj5EN3W436lRMokuJMcLEbyvg=="
 Set-Variable -Scope Global -Name TODAY -Value (Get-Date -Format 'yyyyMMdd')
-Write-Host "Set 17 variables."
+Write-Host "Set 20 variables."
